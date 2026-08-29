@@ -1,18 +1,17 @@
-# Algorithms (M1 — 2027 H2)
+# Algorithms
 
-자료구조 완료 후 진입. 패턴별 한글 노트 + 대표 구현.
+Pattern notes and reference implementations, written after the data structures they
+depend on.
 
-## 목록
-
-| # | 주제 | 노트 | 구현 |
+| # | Topic | Notes | Impl |
 |---|---|---|---|
-| 01 | 복잡도 분석 (Big-O) | ☐ | — |
-| 02 | 정렬 (merge, quick) | ☐ | ☐ |
-| 03 | 이진 탐색 + 변형 | ☐ | ☐ |
-| 04 | 재귀 | ☐ | ☐ |
-| 05 | BFS / DFS 응용 | ☐ | ☐ |
-| 06 | 그리디 | ☐ | ☐ |
-| 07 | 기초 DP (1차원 → 2차원) | ☐ | ☐ |
+| 01 | Complexity analysis (Big-O) | ☐ | — |
+| 02 | Sorting (merge, quick) | ☐ | ☐ |
+| 03 | Binary search + variants | ☐ | ☐ |
+| 04 | Recursion | ☐ | ☐ |
+| 05 | BFS / DFS applications | ☐ | ☐ |
+| 06 | Greedy | ☐ | ☐ |
+| 07 | Dynamic programming (1D → 2D) | ☐ | ☐ |
 
-파일 규칙: `NN_주제.md` (노트) + `NN_주제.py` (구현).
-각 노트 끝에 "이 패턴의 LeetCode 문제" 링크를 걸어 `leetcode/` 폴더와 연결.
+File convention: `NN_topic.md` (notes) + `NN_topic.*` (implementation). Each note ends
+with links to the matching problems in `leetcode/`.

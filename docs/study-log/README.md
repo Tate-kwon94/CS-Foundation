@@ -1,17 +1,6 @@
 # Study Log
 
-주 1회, 일요일 밤 10분. 파일명: `YYYY-Wnn.md` (예: `2026-W36.md`).
-이 폴더의 기록이 곧 "2년간 꾸준했다"의 증거다. 빼먹은 주도 빈 손으로라도 쓴다.
+One entry per week: what I studied, what I learned, where I got stuck, what's next.
+Kept short and technical — a work log, not a diary.
 
-## 템플릿
-
-```markdown
-# 2026-W36 (9/1–9/7)
-
-- 투입 시간: 11h (목표 10~15h)
-- 한 것: CS50P week 2 완료, exercises/week02 10문제 커밋
-- 배운 것 한 줄:
-- 막힌 것:
-- 다음 주 계획:
-- 현장 상황 메모: (야근/출장 등 학습에 영향 준 것)
-```
+File naming: `YYYY-Wnn.md`

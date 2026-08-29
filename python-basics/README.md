@@ -1,35 +1,16 @@
-# Python Basics (M1)
+# Python Basics
 
-**규칙: 이 폴더의 모든 코드는 AI 없이 작성한다.** 막히면 공식 문서와 구글까지만. AI는 다 푼 뒤 리뷰용으로만 사용하고, AI 리뷰에서 배운 점은 파일 하단에 주석으로 남긴다.
-
-## 14주 커리큘럼 (2026.09 ~ 12)
-
-| 주차 | 주제 | 산출물 |
-|---|---|---|
-| 1–2 | 변수, 자료형, 문자열, 입출력 | exercises/week01–02 |
-| 3–4 | 조건문, 반복문 | exercises/week03–04 |
-| 5–6 | 리스트, 딕셔너리, 튜플, 셋 | exercises/week05–06 |
-| 7–8 | 함수, 스코프, 에러 처리 | exercises/week07–08 |
-| 9–10 | 파일 입출력, CSV/JSON | exercises/week09–10 |
-| 11 | 클래스 기초 | exercises/week11 |
-| 12–14 | **미니 프로젝트**: 현장 업무 자동화 스크립트 1개 | project/ |
-
-## 폴더 구조
+Fundamentals, hand-written. No AI assistance while solving — AI only afterwards, for
+review, and what I learn from that review goes in a comment at the bottom of the file.
 
 ```
 python-basics/
-├── exercises/   # weekNN_주제.py — 주 10문제
-└── project/     # 12~14주차 미니 프로젝트 (별도 README 포함)
+├── exercises/   # weekNN_topic.py
+└── project/     # a small automation project on a domain I know
 ```
 
-## 미니 프로젝트 후보 (아는 도메인으로)
+## Done when
 
-- 배관 자재(BOM) 수량 집계기: 스풀 리스트 CSV → 사이즈/재질별 집계 리포트
-- 용접 검사 로그 정리기: 검사 기록 → 합격률/결함 유형 통계
-- 현장 일일 보고서 템플릿 생성기
-
-## 완료 기준 (다음 단계 진입 조건)
-
-- [ ] 빈 파일에서 시작해 200줄 규모 스크립트를 혼자 작성
-- [ ] CSV 읽기 → 딕셔너리로 가공 → 결과 파일 출력을 검색 없이 구현
-- [ ] 미니 프로젝트 1개 완성 + 영문 README 작성
+- [ ] I can write a 200-line script from an empty file without looking things up
+- [ ] Read CSV → transform with dicts → write results, from memory
+- [ ] One finished mini-project with its own README

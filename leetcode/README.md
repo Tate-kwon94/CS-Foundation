@@ -1,24 +1,25 @@
-# LeetCode (M1: 50+ → M3: 100–150)
+# LeetCode
 
-패턴별 폴더 구조 (NeetCode 로드맵 순서 기준). 2027.03 시작, Easy부터.
+Solutions organized by pattern (NeetCode roadmap order).
 
-## 규칙
+## Rules
 
-1. **AI 금지. 답지도 30분 버틴 뒤에만.** 답지를 봤으면 다음날 안 보고 다시 푼다 (파일에 `# re-solved` 표시).
-2. 파일명: `NNNN-problem-name.py` (문제번호 4자리)
-3. 파일 상단 주석 템플릿:
+1. **No AI.** Editorial only after 30 minutes of my own attempt — and if I read it,
+   I re-solve the problem from scratch the next day (marked `re-solved`).
+2. File naming: `NNNN-problem-name.*` (4-digit problem number)
+3. Header comment on every solution:
 
-```python
+```
 # 0001. Two Sum (Easy)
 # https://leetcode.com/problems/two-sum/
-# 접근: 해시맵에 (값 → 인덱스) 저장하며 보완값 탐색
-# 시간: O(n) / 공간: O(n)
-# 소요: 25분 | 답지: X | re-solved: -
+# Approach: hash map of value -> index, look up the complement
+# Time: O(n) / Space: O(n)
+# Took: 25 min | Editorial: no | re-solved: -
 ```
 
-## 진행 현황
+## Progress
 
-| 패턴 | 목표 | 완료 |
+| Pattern | Target | Done |
 |---|---|---|
 | arrays-hashing | 9 | 0 |
 | two-pointers | 5 | 0 |
@@ -28,4 +29,4 @@
 | trees | 10 | 0 |
 | graphs | 6 | 0 |
 | dynamic-programming | 5 | 0 |
-| **합계 (M1 목표 50)** | **50** | **0** |
+| **Total** | **50** | **0** |
