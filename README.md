@@ -26,6 +26,7 @@ cs-foundations/
 ├── data-structures/        # implementations from scratch + notes
 ├── algorithms/             # patterns, complexity analysis
 ├── leetcode/               # solutions organized by pattern
+├── review/                 # clearly labeled AI-assisted quizzes and review tools
 ├── system-design-notes/    # design notes & case studies
 ├── industrial-ai-projects/ # portfolio projects (energy domain)
 └── docs/study-log/         # weekly logs
@@ -47,3 +48,7 @@ See [ROADMAP.md](./ROADMAP.md) for what I'm working toward.
 4. **No confidential material.** Nothing from my employer or its projects — no internal
    documents, drawings, data, contract values, or design specifics. Domain-inspired
    projects use synthetic data and generalized problem statements only.
+5. **AI-assisted review material is labeled and separated.** Files under `review/`
+   contain generated questions, runnable puzzles, and answer keys used for practice.
+   They are study tools, not evidence of independent implementation. Portfolio work
+   in the fundamentals directories remains hand-written under rule 1.

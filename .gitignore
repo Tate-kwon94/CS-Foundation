@@ -69,5 +69,5 @@ Testing/
 .cache/
 .DS_Store
 
-# Local AI-assisted review materials (never committed)
+# Local review build artifacts
 .review/

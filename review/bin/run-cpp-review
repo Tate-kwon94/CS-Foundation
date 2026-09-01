@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+review_root="$repo_root/review"
+source_file="$review_root/cpp/01-memory-model/trace-puzzles.cpp"
+build_dir="$repo_root/.review/build"
+binary="$build_dir/memory-trace-puzzles"
+compiler="${CXX:-clang++}"
+
+if [[ $# -ne 1 || ! "$1" =~ ^[1-6]$ ]]; then
+  echo "Usage: review/bin/run-cpp-review <puzzle-number: 1-6>" >&2
+  exit 1
+fi
+
+mkdir -p "$build_dir"
+
+"$compiler" \
+  -std=c++20 \
+  -Wall \
+  -Wextra \
+  -Wpedantic \
+  -fsanitize=undefined \
+  -fno-omit-frame-pointer \
+  -g \
+  "$source_file" \
+  -o "$binary"
+
+"$binary" "$1"
